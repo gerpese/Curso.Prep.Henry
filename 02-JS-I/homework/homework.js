@@ -71,11 +71,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1.strench === str2.strench) {
-  return true;
-  } else {
-     return false;
-  }
+  return str1.length === str2.length;
 }
 
 function menosQueNoventa(num) {
@@ -121,7 +117,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 1 === 0) {
+  if (num % 2 === 1) {
     return true;
   } else {
     return false;
